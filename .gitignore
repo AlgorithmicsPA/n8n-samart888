@@ -1,24 +1,66 @@
-node_modules
-.DS_Store
-.tmp
-tmp
-dist
-coverage
-npm-debug.log*
-yarn.lock
-google-generated-credentials.json
-_START_PACKAGE
+# Archivos de credenciales
 .env
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.default.json
-.idea
-nodelinter.config.json
-**/package-lock.json
-packages/**/.turbo
-.turbo
-*.tsbuildinfo
+.env.*
+*.env
+secrets.json
+config.json
+*password*
+*secret*
+*token*
+*key*
+
+# Archivos de logs
+*.log
+logs/
+debug/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de base de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de configuración local
+config.local.py
+settings.local.py
+
+# Archivos de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de IDE
+.vscode/
+.idea/
 *.swp
-CHANGELOG-*.md
-*.mdx
-build-storybook.log
+*.swo
+*~
+
+# Archivos de build
+dist/
+build/
+*.tsbuildinfo
+
+# Archivos de test
+coverage/
+.nyc_output/
+
+# Archivos de Docker
+.dockerignore
+Dockerfile.local
+
+# Archivos de credenciales específicas
+*28ZwnPHQRC*
+*npg_I6sKUNeof9qb*
+*neondb_owner*
+*ep-long-wave-adza01b9*
